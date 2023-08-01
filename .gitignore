@@ -1,0 +1,55 @@
+# Ignore macOS / OS X system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+desktop.ini
+
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore Python virtual environment
+venv/
+__pycache__/
+
+# Ignore Java build files
+*.class
+
+# Ignore compiled output
+*.o
+*.pyc
+*.exe
+*.dll
+
+# Ignore temporary files
+*~
+*.tmp
+
+# Ignore log files
+*.log
+*.log.*
+
+# Ignore cache files
+.cache/
+.cached/
+
+# Ignore editor and IDE-specific files
+.settings/
+.idea/
+
+# Ignore system generated files
+ehthumbs.db
+Icon?
+
+# Ignore package lock files
+package-lock.json
+yarn.lock
+
+# Ignore build and distribution directories
+dist/
+build/
+
+# Ignore .history directory
+.history/
+
+# Add any other project-specific files or directories to ignore here
